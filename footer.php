@@ -1,3 +1,11 @@
+<?php
+/**
+ * Footer template.
+ * 
+ * @package codecx
+ */
+?>
+
 <footer class="bg-info text-center text-white">
     <!-- Grid container -->
     <div class="container p-0 pb-0">
