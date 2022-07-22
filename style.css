@@ -1,11 +1,17 @@
 /*
 Theme Name: codecx
-Author: mrcranel
-Author URI: https://github.com/mhadr66
+Theme URI: https://github.com/mhadr66/codecx.git
+Author: Mr. Cranel
+Author URI: https://github.com/mhadr66/
+Description: This theme is for learning to create a theme from scratch. Currently the content is still a bit because it is still basic. Insya Allah, there will be more.
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
 Version: 0.1
-Description: Tema ini untuk belajar membuat tema dari nol. Saat ini isinya masih sedikit karena masih dasar. Insa’allah nanti akan menjadi makin banyak.
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: codecx
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
 */
-
-/* Pagination */
-
-/* ---- */
