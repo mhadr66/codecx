@@ -2,32 +2,12 @@
 /**
  * Header Navigation template.
  * 
- * @package codecx
+ * @package Codecx
  */
 
 ?>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-info">
-    <div class="container">
-        <a class="navbar-brand" href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <?php wp_nav_menu(array(
-                'menu' => 'top-menu',
-                'menu_class' => 'navbar-nav fw-bold ms-auto',
-                'container' => '',
-                'li_class' => 'nav-item',
-                'a_class' => 'nav-link',
-                'active_class' => 'active'
-            ));
-            ?>
-        </div>
-    </div>
-</nav>
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-dark bg-info">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

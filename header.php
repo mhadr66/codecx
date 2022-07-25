@@ -2,7 +2,7 @@
 /**
  * Header template.
  * 
- * @package codecx
+ * @package Codecx
  */
 ?>
 

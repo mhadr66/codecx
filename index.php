@@ -2,7 +2,7 @@
 /**
  * Main template file.
  * 
- * @package codecx
+ * @package Codecx
  */
 
 get_header();
