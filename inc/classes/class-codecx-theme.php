@@ -31,6 +31,9 @@ class CODECX_THEME {
     }
 
     public function setup_theme() {
+
+        
+
         add_theme_support( 'title-tag' );
 
         add_theme_support( 'custom-logo', [
