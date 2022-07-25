@@ -12,6 +12,12 @@ if ( ! defined( 'CODECX_DIR_PATH' ) ) {
 
 require_once CODECX_DIR_PATH . '/inc/helpers/autoloader.php';
 
+function codecx_get_theme_instance() {
+    \CODECX_THEME\Inc\CODECX_THEME::get_instance();
+}
+
+codecx_get_theme_instance();
+
 function codecx_enqueue_scripts() {
 
     // Register Styles.
