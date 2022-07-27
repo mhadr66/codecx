@@ -15,6 +15,7 @@ if ( ! defined( 'CODECX_DIR_URI') ) {
 }
 
 require_once CODECX_DIR_PATH . '/inc/helpers/autoloader.php';
+require_once CODECX_DIR_PATH . '/inc/helpers/template-tags.php';
 
 function codecx_get_theme_instance() {
     \CODECX_THEME\Inc\CODECX_THEME::get_instance();

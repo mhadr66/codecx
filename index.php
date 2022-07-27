@@ -30,13 +30,13 @@ get_header();
             <div class="row">
                 <?php
                     $index = 0;
-                    $no_of_colomns = 1;
+                    $no_of_columns = 1;
                             
                     // Case: index = 0;
                     // Start the loop.
                     while ( have_posts() ) : the_post();
 
-                    if ( 0 === $index % $no_of_colomns ) {
+                    if ( 0 === $index % $no_of_columns ) {
                 ?>
                 <div class="col-lg-4 col-md-6 col-sm-12">
                 <?php
@@ -47,7 +47,7 @@ get_header();
                     $index ++;
                     // Index value = 1;
 
-                    if ( 0 !== $index && 0 === $index % $no_of_colomns ) {
+                    if ( 0 !== $index && 0 === $index % $no_of_columns ) {
                 ?>
                 </div>
                 <?php
